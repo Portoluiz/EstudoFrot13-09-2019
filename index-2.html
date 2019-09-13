@@ -59,12 +59,12 @@ li {
 .main-title {
     font-size: 24px;
     line-height: 28px;
-    color: #fff;
+    color: rgb(224, 66, 66);
     font-weight: 400;
 }
 
 .hello {
-    color: #fff;
+    color: rgb(223, 54, 54);
     line-height: 51px;
 }
 
@@ -79,9 +79,9 @@ li {
     .logo a{
         color: orange;
         margin-left: 30px;
-        border: 1px solid white;
-        background: white;
-        font-size: 30px;
+        border: 1px solid rgba(orange, orange, orange, 100);
+        /*background: white;*/
+        font-size: 40px;
     }
 
     .logo a:hover{
@@ -116,7 +116,7 @@ li {
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    background:rgba(0, 0, 0, 0.3) url(cd-icon-close.svg)no-repeat center center;
+    background:rgba(0, 0, 0, 0.158) url(cd-icon-close.svg)no-repeat center center;
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
@@ -129,7 +129,7 @@ li {
 }
 
 .no-touch .full-menu .modal-close:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.377);
 }
 
 .full-menu.visible {
@@ -194,12 +194,12 @@ li {
 }
 
 .cd-transition-layer.opening .bg-layer {
-    animation: cd-sequence 1.0s steps(24);
+    animation: cd-sequence 1.6s steps(24);
     animation-fill-mode: forwards;
 }
 
 .cd-transition-layer.closing .bg-layer {
-    animation: cd-sequence-reverse 1.0s steps(24);
+    animation: cd-sequence-reverse 1.6s steps(24);
     animation-fill-mode: forwards;
 }
 
@@ -304,6 +304,8 @@ header {
     transition: .5s ease-in-out;
     cursor: pointer;
     margin-top: 7px;
+    left: 15%;
+    top:-36px;
 }
 
 .nav-icon span {
@@ -311,7 +313,7 @@ header {
     position: absolute;
     height: 2px;
     width: 100%;
-    background: #fff;
+    background: orange;
     opacity: 1;
     transform: rotate(0deg);
     transition: .25s ease-in-out;
@@ -389,12 +391,12 @@ header {
 		<h1 class="main-title">Dois passos para conquistar<br>
         o seus Sonhos, "Deitar e Dormi".</h1>
         <h5>Adalberon Crucetin Rego</h5>
-		<div class="social">
+		<!--<div class="social">
 			<a href="#"><img src="icons/social/twitter.svg" alt=""></a>
 			<a href="#"><img src="icons/social/instagram.svg" alt=""></a>
 			<a href="#"><img src="icons/social/dribbble.svg" alt=""></a>
 			<a href="#"><img src="icons/social/send.svg" alt=""></a>
-		</div>
+		</div>-->
 	</div>
 
 
