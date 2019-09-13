@@ -4,6 +4,7 @@
 <head>
 
 <title>Adil website template</title>
+<script src="https://kit.fontawesome.com/dfe7513c2a.js"></script>
 <meta name="viewpor" content="width = device-width, iniial-scale = 1">
 <link rel="stylesheet" href="css/bootstrap.min.css"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
@@ -148,6 +149,8 @@ li {
     opacity: 1;
     transition: transform 0.3s 0s, visibility 0s 0s, opacity 0.3s 0s;
     transform: scale(1);
+    color: rgba(0, 0, 0, 0);
+    padding: 10px 10px;
 }
 
 @media only screen and (min-width: 1100px) {
@@ -155,8 +158,8 @@ li {
         padding: 6em 5%;
     }
     .full-menu .modal-close {
-        height: 60px;
-        width: 60px;
+        height: 30px;
+        width: 30px;
     }
     .full-menu p {
         font-size: 25px;
@@ -183,7 +186,7 @@ li {
     transform: translateY(-50%) translateX(-2%);
     height: 100%;
     /* our sprite is composed of 25 frames */
-    width: 2500%;
+    width: 2400%;
     background: url(ink.png) no-repeat 0 0;
     background-size: 100% 100%;
 }
@@ -244,6 +247,7 @@ li {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    padding: 0 120px 0 0;
 }
 
 .page-menu li {
@@ -340,7 +344,28 @@ header {
     width: 100%;
 }
 
-
+#soc1{
+    font-size: 20px;
+    color:green;
+}
+#soc2{
+    font-size: 20px;
+    color: rgb(17, 87, 179);
+}
+#soc3{
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient( rgb(17, 87, 179), rgb(179, 17, 85), 
+    rgb(221, 108, 15),  rgb(226, 216, 78));
+    border-radius: 19%;
+    width: 20px;
+    height: 20px;
+    margin: ;
+}
+#soc4{
+    font-size: 20px;
+    color: white;
+}
 
 
 </style>
@@ -370,10 +395,10 @@ header {
 			<li><a href="">Contact</a></li>
 			<li><a href="#">Buy Now</a></li>
 			<li class="social">
-				<a href="#"><img src="icons/social/twitter.svg" alt=""></a>
-				<a href="#"><img src="icons/social/dribbble.svg" alt=""></a>
-				<a href="#"><img src="icons/social/instagram.svg" alt=""></a>
-				<a href="#"><img src="icons/social/send.svg" alt=""></a>
+				<a id="soc1" href="#"><i class="fab fa-spotify"></i></a>
+				<a id="soc2" href="#"><i class="fab fa-facebook-f"></i></a>
+				<a id="soc3" href="#"><i class="fab fa-instagram"></i></a>
+				<a id="soc4" href="#"><i class="fas fa-at"></i></a>
 			</li>
 		</ul>
 	</div>
